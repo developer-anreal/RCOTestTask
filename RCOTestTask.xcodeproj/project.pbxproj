@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB9015E01AB6EC09000AFB79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9015DF1AB6EC09000AFB79 /* main.m */; };
+		DB9015E31AB6EC09000AFB79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9015E21AB6EC09000AFB79 /* AppDelegate.m */; };
+		DB9015E61AB6EC09000AFB79 /* RSSFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9015E51AB6EC09000AFB79 /* RSSFeedViewController.m */; };
+		DB9015E91AB6EC09000AFB79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9015E71AB6EC09000AFB79 /* Main.storyboard */; };
+		DB9015EB1AB6EC09000AFB79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9015EA1AB6EC09000AFB79 /* Images.xcassets */; };
+		DB9015EE1AB6EC09000AFB79 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB9015EC1AB6EC09000AFB79 /* LaunchScreen.xib */; };
+		DB9015FA1AB6EC09000AFB79 /* RCOTestTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9015F91AB6EC09000AFB79 /* RCOTestTaskTests.m */; };
+		DB9016061AB6F733000AFB79 /* RSSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9016051AB6F733000AFB79 /* RSSRequest.m */; };
+		DB9016091AB70822000AFB79 /* RSSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9016081AB70822000AFB79 /* RSSItem.m */; };
+		DB90160C1AB73739000AFB79 /* RSSFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB90160B1AB73739000AFB79 /* RSSFeedCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB9015F41AB6EC09000AFB79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB9015D21AB6EC09000AFB79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB9015D91AB6EC09000AFB79;
+			remoteInfo = RCOTestTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB9015DA1AB6EC09000AFB79 /* RCOTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCOTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9015DE1AB6EC09000AFB79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB9015DF1AB6EC09000AFB79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB9015E11AB6EC09000AFB79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB9015E21AB6EC09000AFB79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB9015E41AB6EC09000AFB79 /* RSSFeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSSFeedViewController.h; sourceTree = "<group>"; };
+		DB9015E51AB6EC09000AFB79 /* RSSFeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSSFeedViewController.m; sourceTree = "<group>"; };
+		DB9015E81AB6EC09000AFB79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB9015EA1AB6EC09000AFB79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB9015ED1AB6EC09000AFB79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DB9015F31AB6EC09000AFB79 /* RCOTestTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCOTestTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9015F81AB6EC09000AFB79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB9015F91AB6EC09000AFB79 /* RCOTestTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCOTestTaskTests.m; sourceTree = "<group>"; };
+		DB9016041AB6F733000AFB79 /* RSSRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSRequest.h; sourceTree = "<group>"; };
+		DB9016051AB6F733000AFB79 /* RSSRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSRequest.m; sourceTree = "<group>"; };
+		DB9016071AB70822000AFB79 /* RSSItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSItem.h; sourceTree = "<group>"; };
+		DB9016081AB70822000AFB79 /* RSSItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSItem.m; sourceTree = "<group>"; };
+		DB90160A1AB73739000AFB79 /* RSSFeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSFeedCell.h; sourceTree = "<group>"; };
+		DB90160B1AB73739000AFB79 /* RSSFeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSFeedCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB9015D71AB6EC09000AFB79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9015F01AB6EC09000AFB79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB9015D11AB6EC08000AFB79 = {
+			isa = PBXGroup;
+			children = (
+				DB9015DC1AB6EC09000AFB79 /* RCOTestTask */,
+				DB9015F61AB6EC09000AFB79 /* RCOTestTaskTests */,
+				DB9015DB1AB6EC09000AFB79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB9015DB1AB6EC09000AFB79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB9015DA1AB6EC09000AFB79 /* RCOTestTask.app */,
+				DB9015F31AB6EC09000AFB79 /* RCOTestTaskTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB9015DC1AB6EC09000AFB79 /* RCOTestTask */ = {
+			isa = PBXGroup;
+			children = (
+				DB9016031AB6EC2C000AFB79 /* Model */,
+				DB9015E11AB6EC09000AFB79 /* AppDelegate.h */,
+				DB9015E21AB6EC09000AFB79 /* AppDelegate.m */,
+				DB9015E41AB6EC09000AFB79 /* RSSFeedViewController.h */,
+				DB9015E51AB6EC09000AFB79 /* RSSFeedViewController.m */,
+				DB9015E71AB6EC09000AFB79 /* Main.storyboard */,
+				DB9015EA1AB6EC09000AFB79 /* Images.xcassets */,
+				DB9015EC1AB6EC09000AFB79 /* LaunchScreen.xib */,
+				DB9015DD1AB6EC09000AFB79 /* Supporting Files */,
+				DB90160A1AB73739000AFB79 /* RSSFeedCell.h */,
+				DB90160B1AB73739000AFB79 /* RSSFeedCell.m */,
+			);
+			path = RCOTestTask;
+			sourceTree = "<group>";
+		};
+		DB9015DD1AB6EC09000AFB79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB9015DE1AB6EC09000AFB79 /* Info.plist */,
+				DB9015DF1AB6EC09000AFB79 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB9015F61AB6EC09000AFB79 /* RCOTestTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB9015F91AB6EC09000AFB79 /* RCOTestTaskTests.m */,
+				DB9015F71AB6EC09000AFB79 /* Supporting Files */,
+			);
+			path = RCOTestTaskTests;
+			sourceTree = "<group>";
+		};
+		DB9015F71AB6EC09000AFB79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB9015F81AB6EC09000AFB79 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB9016031AB6EC2C000AFB79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB9016041AB6F733000AFB79 /* RSSRequest.h */,
+				DB9016051AB6F733000AFB79 /* RSSRequest.m */,
+				DB9016071AB70822000AFB79 /* RSSItem.h */,
+				DB9016081AB70822000AFB79 /* RSSItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB9015D91AB6EC09000AFB79 /* RCOTestTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9015FD1AB6EC09000AFB79 /* Build configuration list for PBXNativeTarget "RCOTestTask" */;
+			buildPhases = (
+				DB9015D61AB6EC09000AFB79 /* Sources */,
+				DB9015D71AB6EC09000AFB79 /* Frameworks */,
+				DB9015D81AB6EC09000AFB79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCOTestTask;
+			productName = RCOTestTask;
+			productReference = DB9015DA1AB6EC09000AFB79 /* RCOTestTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB9015F21AB6EC09000AFB79 /* RCOTestTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9016001AB6EC09000AFB79 /* Build configuration list for PBXNativeTarget "RCOTestTaskTests" */;
+			buildPhases = (
+				DB9015EF1AB6EC09000AFB79 /* Sources */,
+				DB9015F01AB6EC09000AFB79 /* Frameworks */,
+				DB9015F11AB6EC09000AFB79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB9015F51AB6EC09000AFB79 /* PBXTargetDependency */,
+			);
+			name = RCOTestTaskTests;
+			productName = RCOTestTaskTests;
+			productReference = DB9015F31AB6EC09000AFB79 /* RCOTestTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB9015D21AB6EC09000AFB79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = hexforge;
+				TargetAttributes = {
+					DB9015D91AB6EC09000AFB79 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					DB9015F21AB6EC09000AFB79 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = DB9015D91AB6EC09000AFB79;
+					};
+				};
+			};
+			buildConfigurationList = DB9015D51AB6EC09000AFB79 /* Build configuration list for PBXProject "RCOTestTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB9015D11AB6EC08000AFB79;
+			productRefGroup = DB9015DB1AB6EC09000AFB79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB9015D91AB6EC09000AFB79 /* RCOTestTask */,
+				DB9015F21AB6EC09000AFB79 /* RCOTestTaskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB9015D81AB6EC09000AFB79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9015E91AB6EC09000AFB79 /* Main.storyboard in Resources */,
+				DB9015EE1AB6EC09000AFB79 /* LaunchScreen.xib in Resources */,
+				DB9015EB1AB6EC09000AFB79 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9015F11AB6EC09000AFB79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB9015D61AB6EC09000AFB79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB90160C1AB73739000AFB79 /* RSSFeedCell.m in Sources */,
+				DB9016061AB6F733000AFB79 /* RSSRequest.m in Sources */,
+				DB9016091AB70822000AFB79 /* RSSItem.m in Sources */,
+				DB9015E61AB6EC09000AFB79 /* RSSFeedViewController.m in Sources */,
+				DB9015E31AB6EC09000AFB79 /* AppDelegate.m in Sources */,
+				DB9015E01AB6EC09000AFB79 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9015EF1AB6EC09000AFB79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9015FA1AB6EC09000AFB79 /* RCOTestTaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB9015F51AB6EC09000AFB79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB9015D91AB6EC09000AFB79 /* RCOTestTask */;
+			targetProxy = DB9015F41AB6EC09000AFB79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB9015E71AB6EC09000AFB79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB9015E81AB6EC09000AFB79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB9015EC1AB6EC09000AFB79 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB9015ED1AB6EC09000AFB79 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB9015FB1AB6EC09000AFB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB9015FC1AB6EC09000AFB79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB9015FE1AB6EC09000AFB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RCOTestTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB9015FF1AB6EC09000AFB79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RCOTestTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB9016011AB6EC09000AFB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RCOTestTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RCOTestTask.app/RCOTestTask";
+			};
+			name = Debug;
+		};
+		DB9016021AB6EC09000AFB79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RCOTestTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RCOTestTask.app/RCOTestTask";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB9015D51AB6EC09000AFB79 /* Build configuration list for PBXProject "RCOTestTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9015FB1AB6EC09000AFB79 /* Debug */,
+				DB9015FC1AB6EC09000AFB79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB9015FD1AB6EC09000AFB79 /* Build configuration list for PBXNativeTarget "RCOTestTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9015FE1AB6EC09000AFB79 /* Debug */,
+				DB9015FF1AB6EC09000AFB79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB9016001AB6EC09000AFB79 /* Build configuration list for PBXNativeTarget "RCOTestTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9016011AB6EC09000AFB79 /* Debug */,
+				DB9016021AB6EC09000AFB79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB9015D21AB6EC09000AFB79 /* Project object */;
+}
