@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9007FA0B91BF20041322E33F /* libPods-RCOTestTask.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F011D1AC4D84CD4992A4EC8B /* libPods-RCOTestTask.a */; };
+		DB7CFCE51AD5DFD9000371FB /* RSSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9016081AB70822000AFB79 /* RSSItem.m */; };
+		DB7CFCE91AD5E1D5000371FB /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7CFCE81AD5E1D5000371FB /* MMWormhole.m */; };
+		DB7CFCEA1AD5E1EB000371FB /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7CFCE81AD5E1D5000371FB /* MMWormhole.m */; };
+		DB7CFCED1AD5E5CC000371FB /* ItemInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7CFCEC1AD5E5CC000371FB /* ItemInterfaceController.m */; };
 		DB9015E01AB6EC09000AFB79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9015DF1AB6EC09000AFB79 /* main.m */; };
 		DB9015E31AB6EC09000AFB79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9015E21AB6EC09000AFB79 /* AppDelegate.m */; };
 		DB9015E61AB6EC09000AFB79 /* RSSFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9015E51AB6EC09000AFB79 /* RSSFeedViewController.m */; };
@@ -17,6 +22,15 @@
 		DB9016061AB6F733000AFB79 /* RSSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9016051AB6F733000AFB79 /* RSSRequest.m */; };
 		DB9016091AB70822000AFB79 /* RSSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9016081AB70822000AFB79 /* RSSItem.m */; };
 		DB90160C1AB73739000AFB79 /* RSSFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB90160B1AB73739000AFB79 /* RSSFeedCell.m */; };
+		DBD07B151AD33D4500B2BF35 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD07B141AD33D4500B2BF35 /* InterfaceController.m */; };
+		DBD07B181AD33D4500B2BF35 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD07B171AD33D4500B2BF35 /* NotificationController.m */; };
+		DBD07B1A1AD33D4500B2BF35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD07B191AD33D4500B2BF35 /* Images.xcassets */; };
+		DBD07B1E1AD33D4500B2BF35 /* RCOTestTask WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = DBD07B1D1AD33D4500B2BF35 /* RCOTestTask WatchKit App.app */; };
+		DBD07B261AD33D4500B2BF35 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD07B241AD33D4500B2BF35 /* Interface.storyboard */; };
+		DBD07B281AD33D4500B2BF35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD07B271AD33D4500B2BF35 /* Images.xcassets */; };
+		DBD07B2B1AD33D4500B2BF35 /* RCOTestTask WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DBD07B0E1AD33D4500B2BF35 /* RCOTestTask WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DBE265AE1AD145CB00DFAADA /* RCOApplicationAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE265AD1AD145CB00DFAADA /* RCOApplicationAssembly.m */; };
+		DBE265B01AD2522000DFAADA /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = DBE265AF1AD2522000DFAADA /* Configuration.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,9 +41,44 @@
 			remoteGlobalIDString = DB9015D91AB6EC09000AFB79;
 			remoteInfo = RCOTestTask;
 		};
+		DBD07B1F1AD33D4500B2BF35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB9015D21AB6EC09000AFB79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBD07B1C1AD33D4500B2BF35;
+			remoteInfo = "RCOTestTask WatchKit App";
+		};
+		DBD07B291AD33D4500B2BF35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB9015D21AB6EC09000AFB79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBD07B0D1AD33D4500B2BF35;
+			remoteInfo = "RCOTestTask WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DBD07B321AD33D4500B2BF35 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DBD07B2B1AD33D4500B2BF35 /* RCOTestTask WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1014A3ABE374308FDEFA435F /* Pods-RCOTestTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCOTestTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RCOTestTask/Pods-RCOTestTask.debug.xcconfig"; sourceTree = "<group>"; };
+		DB7CFCE71AD5E1D5000371FB /* MMWormhole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMWormhole.h; sourceTree = "<group>"; };
+		DB7CFCE81AD5E1D5000371FB /* MMWormhole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMWormhole.m; sourceTree = "<group>"; };
+		DB7CFCEB1AD5E5CC000371FB /* ItemInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemInterfaceController.h; sourceTree = "<group>"; };
+		DB7CFCEC1AD5E5CC000371FB /* ItemInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemInterfaceController.m; sourceTree = "<group>"; };
+		DB7CFCEE1AD5EAEF000371FB /* RCOTestTask.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = RCOTestTask.entitlements; sourceTree = "<group>"; };
+		DB7CFCEF1AD5EB35000371FB /* RCOTestTask WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "RCOTestTask WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		DB9015DA1AB6EC09000AFB79 /* RCOTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCOTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9015DE1AB6EC09000AFB79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB9015DF1AB6EC09000AFB79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -49,6 +98,24 @@
 		DB9016081AB70822000AFB79 /* RSSItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSItem.m; sourceTree = "<group>"; };
 		DB90160A1AB73739000AFB79 /* RSSFeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSFeedCell.h; sourceTree = "<group>"; };
 		DB90160B1AB73739000AFB79 /* RSSFeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSFeedCell.m; sourceTree = "<group>"; };
+		DBD07B0E1AD33D4500B2BF35 /* RCOTestTask WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "RCOTestTask WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD07B111AD33D4500B2BF35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBD07B121AD33D4500B2BF35 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		DBD07B131AD33D4500B2BF35 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		DBD07B141AD33D4500B2BF35 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		DBD07B161AD33D4500B2BF35 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		DBD07B171AD33D4500B2BF35 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		DBD07B191AD33D4500B2BF35 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DBD07B1D1AD33D4500B2BF35 /* RCOTestTask WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RCOTestTask WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD07B231AD33D4500B2BF35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBD07B251AD33D4500B2BF35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		DBD07B271AD33D4500B2BF35 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DBE265AC1AD145CB00DFAADA /* RCOApplicationAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCOApplicationAssembly.h; sourceTree = "<group>"; };
+		DBE265AD1AD145CB00DFAADA /* RCOApplicationAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCOApplicationAssembly.m; sourceTree = "<group>"; };
+		DBE265AF1AD2522000DFAADA /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
+		DBE265B11AD2581200DFAADA /* Request.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Request.h; sourceTree = "<group>"; };
+		DC7A77ED53DF983E51D0B09F /* Pods-RCOTestTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCOTestTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-RCOTestTask/Pods-RCOTestTask.release.xcconfig"; sourceTree = "<group>"; };
+		F011D1AC4D84CD4992A4EC8B /* libPods-RCOTestTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCOTestTask.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9007FA0B91BF20041322E33F /* libPods-RCOTestTask.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,15 +134,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DBD07B0B1AD33D4500B2BF35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13561AD6E683D3572162D325 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1014A3ABE374308FDEFA435F /* Pods-RCOTestTask.debug.xcconfig */,
+				DC7A77ED53DF983E51D0B09F /* Pods-RCOTestTask.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB7CFCE61AD5E1D5000371FB /* MMWormhole */ = {
+			isa = PBXGroup;
+			children = (
+				DB7CFCE71AD5E1D5000371FB /* MMWormhole.h */,
+				DB7CFCE81AD5E1D5000371FB /* MMWormhole.m */,
+			);
+			name = MMWormhole;
+			path = Source;
+			sourceTree = "<group>";
+		};
 		DB9015D11AB6EC08000AFB79 = {
 			isa = PBXGroup;
 			children = (
 				DB9015DC1AB6EC09000AFB79 /* RCOTestTask */,
 				DB9015F61AB6EC09000AFB79 /* RCOTestTaskTests */,
+				DBD07B0F1AD33D4500B2BF35 /* RCOTestTask WatchKit Extension */,
+				DBD07B211AD33D4500B2BF35 /* RCOTestTask WatchKit App */,
 				DB9015DB1AB6EC09000AFB79 /* Products */,
+				13561AD6E683D3572162D325 /* Pods */,
+				DC7493333A05F851C4B2D8A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +181,8 @@
 			children = (
 				DB9015DA1AB6EC09000AFB79 /* RCOTestTask.app */,
 				DB9015F31AB6EC09000AFB79 /* RCOTestTaskTests.xctest */,
+				DBD07B0E1AD33D4500B2BF35 /* RCOTestTask WatchKit Extension.appex */,
+				DBD07B1D1AD33D4500B2BF35 /* RCOTestTask WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,6 +190,8 @@
 		DB9015DC1AB6EC09000AFB79 /* RCOTestTask */ = {
 			isa = PBXGroup;
 			children = (
+				DB7CFCEE1AD5EAEF000371FB /* RCOTestTask.entitlements */,
+				DBE265AB1AD1454000DFAADA /* Assembly */,
 				DB9016031AB6EC2C000AFB79 /* Model */,
 				DB9015E11AB6EC09000AFB79 /* AppDelegate.h */,
 				DB9015E21AB6EC09000AFB79 /* AppDelegate.m */,
@@ -138,8 +240,71 @@
 				DB9016051AB6F733000AFB79 /* RSSRequest.m */,
 				DB9016071AB70822000AFB79 /* RSSItem.h */,
 				DB9016081AB70822000AFB79 /* RSSItem.m */,
+				DBE265B11AD2581200DFAADA /* Request.h */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		DBD07B0F1AD33D4500B2BF35 /* RCOTestTask WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DB7CFCEF1AD5EB35000371FB /* RCOTestTask WatchKit Extension.entitlements */,
+				DBD07B131AD33D4500B2BF35 /* InterfaceController.h */,
+				DBD07B141AD33D4500B2BF35 /* InterfaceController.m */,
+				DBD07B161AD33D4500B2BF35 /* NotificationController.h */,
+				DBD07B171AD33D4500B2BF35 /* NotificationController.m */,
+				DBD07B191AD33D4500B2BF35 /* Images.xcassets */,
+				DBD07B101AD33D4500B2BF35 /* Supporting Files */,
+				DB7CFCEB1AD5E5CC000371FB /* ItemInterfaceController.h */,
+				DB7CFCEC1AD5E5CC000371FB /* ItemInterfaceController.m */,
+			);
+			path = "RCOTestTask WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		DBD07B101AD33D4500B2BF35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBD07B111AD33D4500B2BF35 /* Info.plist */,
+				DBD07B121AD33D4500B2BF35 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBD07B211AD33D4500B2BF35 /* RCOTestTask WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				DBD07B241AD33D4500B2BF35 /* Interface.storyboard */,
+				DBD07B271AD33D4500B2BF35 /* Images.xcassets */,
+				DBD07B221AD33D4500B2BF35 /* Supporting Files */,
+			);
+			path = "RCOTestTask WatchKit App";
+			sourceTree = "<group>";
+		};
+		DBD07B221AD33D4500B2BF35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBD07B231AD33D4500B2BF35 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBE265AB1AD1454000DFAADA /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				DBE265AC1AD145CB00DFAADA /* RCOApplicationAssembly.h */,
+				DBE265AD1AD145CB00DFAADA /* RCOApplicationAssembly.m */,
+				DBE265AF1AD2522000DFAADA /* Configuration.plist */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		DC7493333A05F851C4B2D8A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB7CFCE61AD5E1D5000371FB /* MMWormhole */,
+				F011D1AC4D84CD4992A4EC8B /* libPods-RCOTestTask.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,13 +314,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB9015FD1AB6EC09000AFB79 /* Build configuration list for PBXNativeTarget "RCOTestTask" */;
 			buildPhases = (
+				C41175D53DCD71F9C977ECC4 /* Check Pods Manifest.lock */,
 				DB9015D61AB6EC09000AFB79 /* Sources */,
 				DB9015D71AB6EC09000AFB79 /* Frameworks */,
 				DB9015D81AB6EC09000AFB79 /* Resources */,
+				1607557DA44B4C54C64637E9 /* Copy Pods Resources */,
+				DBD07B321AD33D4500B2BF35 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DBD07B2A1AD33D4500B2BF35 /* PBXTargetDependency */,
 			);
 			name = RCOTestTask;
 			productName = RCOTestTask;
@@ -180,6 +349,39 @@
 			productReference = DB9015F31AB6EC09000AFB79 /* RCOTestTaskTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		DBD07B0D1AD33D4500B2BF35 /* RCOTestTask WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD07B311AD33D4500B2BF35 /* Build configuration list for PBXNativeTarget "RCOTestTask WatchKit Extension" */;
+			buildPhases = (
+				DBD07B0A1AD33D4500B2BF35 /* Sources */,
+				DBD07B0B1AD33D4500B2BF35 /* Frameworks */,
+				DBD07B0C1AD33D4500B2BF35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBD07B201AD33D4500B2BF35 /* PBXTargetDependency */,
+			);
+			name = "RCOTestTask WatchKit Extension";
+			productName = "RCOTestTask WatchKit Extension";
+			productReference = DBD07B0E1AD33D4500B2BF35 /* RCOTestTask WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		DBD07B1C1AD33D4500B2BF35 /* RCOTestTask WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD07B301AD33D4500B2BF35 /* Build configuration list for PBXNativeTarget "RCOTestTask WatchKit App" */;
+			buildPhases = (
+				DBD07B1B1AD33D4500B2BF35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RCOTestTask WatchKit App";
+			productName = "RCOTestTask WatchKit App";
+			productReference = DBD07B1D1AD33D4500B2BF35 /* RCOTestTask WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -191,10 +393,28 @@
 				TargetAttributes = {
 					DB9015D91AB6EC09000AFB79 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = L23R697T6E;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					DB9015F21AB6EC09000AFB79 = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = DB9015D91AB6EC09000AFB79;
+					};
+					DBD07B0D1AD33D4500B2BF35 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = L23R697T6E;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					DBD07B1C1AD33D4500B2BF35 = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -213,6 +433,8 @@
 			targets = (
 				DB9015D91AB6EC09000AFB79 /* RCOTestTask */,
 				DB9015F21AB6EC09000AFB79 /* RCOTestTaskTests */,
+				DBD07B0D1AD33D4500B2BF35 /* RCOTestTask WatchKit Extension */,
+				DBD07B1C1AD33D4500B2BF35 /* RCOTestTask WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +445,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB9015E91AB6EC09000AFB79 /* Main.storyboard in Resources */,
+				DBE265B01AD2522000DFAADA /* Configuration.plist in Resources */,
 				DB9015EE1AB6EC09000AFB79 /* LaunchScreen.xib in Resources */,
 				DB9015EB1AB6EC09000AFB79 /* Images.xcassets in Resources */,
 			);
@@ -235,7 +458,58 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DBD07B0C1AD33D4500B2BF35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD07B1E1AD33D4500B2BF35 /* RCOTestTask WatchKit App.app in Resources */,
+				DBD07B1A1AD33D4500B2BF35 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD07B1B1AD33D4500B2BF35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD07B261AD33D4500B2BF35 /* Interface.storyboard in Resources */,
+				DBD07B281AD33D4500B2BF35 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1607557DA44B4C54C64637E9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RCOTestTask/Pods-RCOTestTask-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C41175D53DCD71F9C977ECC4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DB9015D61AB6EC09000AFB79 /* Sources */ = {
@@ -243,10 +517,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB90160C1AB73739000AFB79 /* RSSFeedCell.m in Sources */,
+				DBE265AE1AD145CB00DFAADA /* RCOApplicationAssembly.m in Sources */,
 				DB9016061AB6F733000AFB79 /* RSSRequest.m in Sources */,
 				DB9016091AB70822000AFB79 /* RSSItem.m in Sources */,
 				DB9015E61AB6EC09000AFB79 /* RSSFeedViewController.m in Sources */,
 				DB9015E31AB6EC09000AFB79 /* AppDelegate.m in Sources */,
+				DB7CFCE91AD5E1D5000371FB /* MMWormhole.m in Sources */,
 				DB9015E01AB6EC09000AFB79 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +535,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DBD07B0A1AD33D4500B2BF35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD07B181AD33D4500B2BF35 /* NotificationController.m in Sources */,
+				DBD07B151AD33D4500B2BF35 /* InterfaceController.m in Sources */,
+				DB7CFCEA1AD5E1EB000371FB /* MMWormhole.m in Sources */,
+				DB7CFCE51AD5DFD9000371FB /* RSSItem.m in Sources */,
+				DB7CFCED1AD5E5CC000371FB /* ItemInterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -266,6 +554,16 @@
 			isa = PBXTargetDependency;
 			target = DB9015D91AB6EC09000AFB79 /* RCOTestTask */;
 			targetProxy = DB9015F41AB6EC09000AFB79 /* PBXContainerItemProxy */;
+		};
+		DBD07B201AD33D4500B2BF35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBD07B1C1AD33D4500B2BF35 /* RCOTestTask WatchKit App */;
+			targetProxy = DBD07B1F1AD33D4500B2BF35 /* PBXContainerItemProxy */;
+		};
+		DBD07B2A1AD33D4500B2BF35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBD07B0D1AD33D4500B2BF35 /* RCOTestTask WatchKit Extension */;
+			targetProxy = DBD07B291AD33D4500B2BF35 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -284,6 +582,14 @@
 				DB9015ED1AB6EC09000AFB79 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		DBD07B241AD33D4500B2BF35 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBD07B251AD33D4500B2BF35 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -369,22 +675,34 @@
 		};
 		DB9015FE1AB6EC09000AFB79 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1014A3ABE374308FDEFA435F /* Pods-RCOTestTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RCOTestTask/RCOTestTask.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = RCOTestTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		DB9015FF1AB6EC09000AFB79 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC7A77ED53DF983E51D0B09F /* Pods-RCOTestTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RCOTestTask/RCOTestTask.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = RCOTestTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -423,6 +741,68 @@
 			};
 			name = Release;
 		};
+		DBD07B2C1AD33D4500B2BF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "RCOTestTask WatchKit Extension/RCOTestTask WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RCOTestTask WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DBD07B2D1AD33D4500B2BF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "RCOTestTask WatchKit Extension/RCOTestTask WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "RCOTestTask WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DBD07B2E1AD33D4500B2BF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = RCOTestTask_WatchKit_Extension;
+				INFOPLIST_FILE = "RCOTestTask WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		DBD07B2F1AD33D4500B2BF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = RCOTestTask_WatchKit_Extension;
+				INFOPLIST_FILE = "RCOTestTask WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -442,6 +822,7 @@
 				DB9015FF1AB6EC09000AFB79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB9016001AB6EC09000AFB79 /* Build configuration list for PBXNativeTarget "RCOTestTaskTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +831,25 @@
 				DB9016021AB6EC09000AFB79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD07B301AD33D4500B2BF35 /* Build configuration list for PBXNativeTarget "RCOTestTask WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD07B2E1AD33D4500B2BF35 /* Debug */,
+				DBD07B2F1AD33D4500B2BF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD07B311AD33D4500B2BF35 /* Build configuration list for PBXNativeTarget "RCOTestTask WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD07B2C1AD33D4500B2BF35 /* Debug */,
+				DBD07B2D1AD33D4500B2BF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

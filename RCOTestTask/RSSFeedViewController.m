@@ -10,6 +10,7 @@
 #import "RSSRequest.h"
 #import "RSSItem.h"
 #import "RSSFeedCell.h"
+#import "MMWormhole.h"
 
 @interface RSSFeedViewController () <RSSRequestDelegate> {
   NSMutableArray *_feed;
@@ -17,6 +18,7 @@
   RSSRequest *_lentaRequest;
   UIImage *_lentaPic;
   UIImage *_gazetaPic;
+  MMWormhole *_wormhole;
 }
 
 @end
@@ -43,6 +45,9 @@ static NSString *loadTitle = @"Loading...";
     [[RSSRequest alloc] initWithURL:[NSURL URLWithString:@"http://lenta.ru/rss"]];
   _lentaRequest.delegate = self;
   [_lentaRequest loadRSS];
+  
+  _wormhole = [[MMWormhole alloc] initWithApplicationGroupIdentifier:@"group.com.hexforge.news"
+                                                   optionalDirectory:@"news"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -71,6 +76,7 @@ static NSString *loadTitle = @"Loading...";
 
 - (void)RSSRequestDidEndRequest:(RSSRequest *)rssRequest {
   self.title = title;
+  [_wormhole passMessageObject:[_feed valueForKey:@"dictionaryRepresentation"] identifier:@"news"];
 }
 
 - (void)RSSRequestDidStartRequest:(RSSRequest *)rssRequest {

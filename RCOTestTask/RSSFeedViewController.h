@@ -10,4 +10,3 @@
 
 @interface RSSFeedViewController : UITableViewController
 @end
-

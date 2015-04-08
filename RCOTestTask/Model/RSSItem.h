@@ -12,10 +12,13 @@
 @interface RSSItem : NSObject
 
 - (instancetype)initWithTitle:(NSString *)title content:(NSString *)content;
+- (instancetype)initWithDict:(NSDictionary *)dict;
 
 @property (nonatomic, readonly) NSString *title;
 @property (nonatomic, readonly) NSString *content;
 @property (nonatomic, strong) UIImage *sourceImage;
 @property (nonatomic) BOOL extended;
+
+@property (nonatomic, readonly) NSDictionary *dictionaryRepresentation;
 
 @end

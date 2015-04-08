@@ -1,0 +1,12 @@
+PODS:
+  - Typhoon (HEAD based on 3.0.2):
+    - Typhoon/no-arc (= HEAD based on 3.0.2)
+  - Typhoon/no-arc (HEAD based on 3.0.2)
+
+DEPENDENCIES:
+  - Typhoon (HEAD)
+
+SPEC CHECKSUMS:
+  Typhoon: 41c79941e0235c0177457a8f272953d922f47d74
+
+COCOAPODS: 0.36.3

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>rss.feeds</key>
+	<array/>
+	<key>NSURL(http://www.gazeta.ru/export/rss/lenta.xml)</key>
+	<string></string>
+	<key>NSURL(http://lenta.ru/rss)</key>
+	<string></string>
+</dict>
+</plist>

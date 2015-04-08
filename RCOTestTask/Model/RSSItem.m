@@ -23,12 +23,25 @@
   return self;
 }
 
+- (instancetype)initWithDict:(NSDictionary *)dict {
+  if (self = [super init]) {
+    _title = dict[@"title"];
+    _content = dict[@"content"];
+  }
+  
+  return self;
+}
+
 - (NSString *)title {
   return _title;
 }
 
 - (NSString *)content {
   return _content;
+}
+
+- (NSDictionary *)dictionaryRepresentation {
+  return @{@"title": _title, @"content": _content};
 }
 
 @end
